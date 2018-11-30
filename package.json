@@ -15,7 +15,16 @@
     "sass": "^1.15.1"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "isomorphic-fetch": "^2.2.1",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-tv": "^0.4.3",
+    "react-tv-navigation": "^0.4.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "smarttv-navigation": "^1.2.17"
   }
 }

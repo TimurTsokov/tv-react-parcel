@@ -1,23 +1,18 @@
 import React, {Component} from 'react';
-import './app.scss';
-// import img from './images/BMW.jpg'
+import {BrowserRouter as Router} from 'react-router-dom';
+import AuthContainer from './Containers/AuthContainer/AuthContainer';
 
-export default class App extends Component {
+class App extends Component {
     render() {
         return (
-            <div className="todo-app">
-                {/*<img src="" alt=""/>*/}
-                <h1>
-                    <ul>
-                        <li>Lorem ipsum dolor.</li>
-                        <li>Lorem ipsum dolor.</li>
-                        <li>Lorem ipsum dolor.</li>
-                        <li>Lorem ipsum dolor.</li>
-                    </ul>
-                </h1>
-                <img src="./images/BMW.jpg" alt=""/>
-            </div>
+
+            <Router>
+                    <div>
+                        <AuthContainer/>
+                    </div>
+            </Router>
         );
     }
 }
 
+export default App;
