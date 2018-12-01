@@ -1,11 +1,166 @@
-.todo-app {
-  width: 50%;
-  margin: 0 auto;
-  color: red;
+@font-face {
+  font-family: "Bold";
+  src: url("AvenirNextCyr-Bold.22be0925.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
-.todo-app ul {
-  padding: 0;
+@font-face {
+  font-family: "Itallic";
+  src: url("AvenirNextCyr-MediumItalic.14431d87.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Regular";
+  src: url("AvenirNextCyr-Regular.e9e12c8d.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Demi";
+  src: url("AvenirNextCyr-Demi.70c431c5.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Regular", sans-serif;
   margin: 0;
+  padding: 0;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  position: absolute;
+  background-color: #0e151b;
+  top: 0;
+  left: 0;
+  color: #fff;
+}
+
+#Macid,
+#oipfConfiguration {
+  opacity: 0;
+}
+
+.button {
+  background-color: rgba(32, 188, 198, 0.5);
+  border: 3px solid #20bcc6;
+  width: 368px;
+  text-transform: uppercase;
+  color: #fff;
+  height: 85px;
+  font-size: 32px;
+  font-family: "AvenirDemi", "Tahoma", sans-serif;
+  border-radius: 42px;
+}
+.button:focus {
+  background-color: #20bcc6;
+  outline: none;
+}.auth-container {
+  background-color: #0e151b;
+  width: 1920px;
+  height: 1080px;
+}.signup-container .logo {
+  margin: 80px 0 0 90px;
+  width: 470px;
+}
+.signup-container h1 {
+  text-transform: uppercase;
   text-align: center;
+  margin: 110px 0 78px 0;
+  font-family: "AvenirBold", "Tahoma";
+  font-size: 36px;
+}
+.signup-container .wrap {
+  width: 900px;
+  position: relative;
+  margin: 0 auto;
+}
+.signup-container .wrap .input-field {
+  width: 368px;
+  height: 85px;
+  padding: 22px 0 0 0;
+  float: right;
+  margin-right: 22px;
+  border-radius: 42px;
+  text-align: center;
+  background-color: #15394C;
+  font-size: 32px;
+}
+.signup-container .wrap .button-signup {
+  float: right;
+  margin: 20px 22px 0 0;
+}
+.signup-container .country-codes-list {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 412px;
+  width: 180px;
+  background-color: #15394C;
+  overflow: hidden;
+  border-radius: 42px;
+}.code-item {
+  width: 180px;
+  display: none;
+  font-family: "AvenirDemi", "Tahoma";
+  text-align: center;
+  font-size: 32px;
+  border-radius: 42px;
+}
+.code-item.visible {
+  display: block;
+}
+.code-item:focus, .code-item.selected {
+  display: block;
+  background-color: rgba(32, 188, 198, 0.35);
+  padding-top: 22px;
+  height: 85px;
+  outline: none;
+  border: 3px solid #20BCC6;
+}
+.code-item.selected {
+  background-color: initial;
+  border: 3px solid #15394C;
+}
+.code-item.selected:focus {
+  background-color: rgba(32, 188, 198, 0.35);
+  border: 3px solid #20BCC6;
+}* {
+  box-sizing: border-box;
+}
+
+.keyboard {
+  width: 311px;
+  float: right;
+  height: 408px;
+  background-color: #15394C;
+  border-radius: 15px;
+  padding: 16px 0 0 16px;
+}.key {
+  width: 85px;
+  height: 85px;
   display: inline-block;
+  background: rgba(32, 188, 198, 0.35);
+  border-radius: 10px;
+  font-size: 36px;
+  text-align: center;
+  line-height: 85px;
+  margin-bottom: 12px;
+  color: #fff;
+}
+.key.focus, .key:hover {
+  background-color: #20BCC6;
+  outline: none;
+}
+.key:not(:nth-of-type(3n)) {
+  margin-right: 12px;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: sub;
+  width: 64px;
+  height: 39px;
+  fill: #fff;
 }

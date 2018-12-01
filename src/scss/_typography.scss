@@ -1,21 +1,21 @@
 //Fonts Import
 @font-face{
   font-family: 'Bold';
-  src:("/assets/fonts/Avenir/AvenirNextCyr-Bold.ttf");
+  src: url("/fonts/Avenir/AvenirNextCyr-Bold.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face{
   font-family: 'Itallic';
-  src:("/assets/fonts/Avenir/AvenirNextCyr-MediumItalic.ttf");
+  src: url("/fonts/Avenir/AvenirNextCyr-MediumItalic.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Regular';
-  src:("/assets/fonts/Avenir/AvenirNextCyr-Regular.ttf");
+  src: url("/fonts/Avenir/AvenirNextCyr-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -23,7 +23,7 @@
 
 @font-face {
   font-family: 'Demi';
-  src:("/assets/fonts/Avenir/AvenirNextCyr-Demi.ttf");
+  src:url("/fonts/Avenir/AvenirNextCyr-Demi.ttf");
   font-weight: normal;
   font-style: normal;
 }
