@@ -24087,7 +24087,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../src/App.js":[function(require,module,exports) {
+},{"./..\\public\\fonts\\Avenir\\AvenirNextCyr-Bold.ttf":[["AvenirNextCyr-Bold.22be0925.ttf","fonts/Avenir/AvenirNextCyr-Bold.ttf"],"fonts/Avenir/AvenirNextCyr-Bold.ttf"],"./..\\public\\fonts\\Avenir\\AvenirNextCyr-MediumItalic.ttf":[["AvenirNextCyr-MediumItalic.14431d87.ttf","fonts/Avenir/AvenirNextCyr-MediumItalic.ttf"],"fonts/Avenir/AvenirNextCyr-MediumItalic.ttf"],"./..\\public\\fonts\\Avenir\\AvenirNextCyr-Regular.ttf":[["AvenirNextCyr-Regular.e9e12c8d.ttf","fonts/Avenir/AvenirNextCyr-Regular.ttf"],"fonts/Avenir/AvenirNextCyr-Regular.ttf"],"./..\\public\\fonts\\Avenir\\AvenirNextCyr-Demi.ttf":[["AvenirNextCyr-Demi.70c431c5.ttf","fonts/Avenir/AvenirNextCyr-Demi.ttf"],"fonts/Avenir/AvenirNextCyr-Demi.ttf"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../src/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -24315,7 +24315,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "30209" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57346" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

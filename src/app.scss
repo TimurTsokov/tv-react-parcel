@@ -1,4 +1,7 @@
+@import "typography";
+
 .todo-app{
+  font-family: $demi-font;
   width: 50%;
   margin: 0 auto;
   color: red;

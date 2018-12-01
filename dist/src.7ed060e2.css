@@ -1,4 +1,29 @@
+@font-face {
+  font-family: "Bold";
+  src: url("AvenirNextCyr-Bold.22be0925.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Itallic";
+  src: url("AvenirNextCyr-MediumItalic.14431d87.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Regular";
+  src: url("AvenirNextCyr-Regular.e9e12c8d.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Demi";
+  src: url("AvenirNextCyr-Demi.70c431c5.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 .todo-app {
+  font-family: "Demi", sans-serif;
   width: 50%;
   margin: 0 auto;
   color: red;
