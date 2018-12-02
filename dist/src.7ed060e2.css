@@ -49,7 +49,7 @@ body {
   color: #fff;
   height: 85px;
   font-size: 32px;
-  font-family: "AvenirDemi", "Tahoma", sans-serif;
+  font-family: "Demi", sans-serif, sans-serif;
   border-radius: 42px;
 }
 .button:focus {
